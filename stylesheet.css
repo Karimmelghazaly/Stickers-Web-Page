@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #593e57;
+    color: white;
+    padding: 1rem 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1{
+    font-size: 1.5rem;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color:#8f638c;
+    padding: 5rem 0;
+}
+
+.body h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.body p{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.body .cta{
+    background-color: #b150ae;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.features{
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px #ddd;
+    display: flex;
+    justify-content:center;
+}
+
+.feature{
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #b150ae;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+}
+
+.feature:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 4px 3px rgb(118, 91, 146);
+    
+}
+
+.feature h3{
+    margin-bottom: 0.5rem;
+    color: #b150ae;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mybutton{
+    background-color: #b150ae;
+    color: white;
+    padding: 0.8rem 0.8rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin: 0.8rem;
+}
+
+.dark-mode-btn{
+    background-color: #b150ae;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+header.dark-mode{
+    background-color: #333;
+}
+
+body.dark-mode{
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+}
+
+body.dark-mode a{
+    color: #e7c640;
+}
+
+body.dark-mode .cta, body.dark-mode .mybutton, body.dark-mode .dark-mode-btn {
+    background-color: #050505;
+    color-scheme:#ffcc00 ;
+}
+
+main.dark-mode{
+    background-color: #1a1a1a;
+    color: #faf7f7;
+}
+
+body main .features p .dark-mode{
+    color: #f4f4f4;
+}
+
+footer.dark-mode{
+    background-color: #333;
+}
+
+footer{
+    text-align: center;
+    background-color: #593e57;
+    color: white;
+    padding: 0.5rem 0;
+}
